@@ -21,6 +21,18 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+main {
+  width: 450px;
+  padding-top: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: normal;
+  background: white;
+  text-align: -webkit-center;
+
+
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
