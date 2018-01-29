@@ -1,0 +1,38 @@
+/*
+ * Box in the MAIN tag used to post tweets
+ */
+.new-tweet {
+  margin-left: 2em;
+  margin-right: 2em;
+
+  padding: 10px;
+  /*border-style: groove;*/
+  background-color: lightgrey;
+  border-radius: 6px;
+}
+/* Heading text */
+.new-tweet h2:after{
+  background-color: #333;
+  content: "";
+  display: -webkit-box;
+  height: 1.5px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+/* text area for type tweet*/
+.new-tweet textarea {
+  padding: 5px;
+  width: 100%;
+}
+/* button to submmit tweet*/
+.new-tweet input {
+  float: left;
+}
+/* number max of characteres*/
+.new-tweet span {
+  float: right;
+}
+
+
+

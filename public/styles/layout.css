@@ -23,14 +23,10 @@ body {
 
 main {
   width: 450px;
-  padding-top: 40%;
+  padding-top: 140px;
   margin-right: auto;
   margin-left: auto;
-  align-content: normal;
   background: white;
-  text-align: -webkit-center;
-
-
 }
 
 /*
