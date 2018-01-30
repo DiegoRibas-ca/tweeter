@@ -27,11 +27,13 @@
 }
 /* button to submmit tweet*/
 .new-tweet input {
-  float: left;
 }
 /* number max of characteres*/
 .new-tweet span {
   float: right;
+}
+.makeItRed {
+  color: red;
 }
 
 
