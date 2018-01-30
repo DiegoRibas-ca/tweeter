@@ -1,0 +1,61 @@
+/*
+ * Box in the MAIN tag to STORAGE tweets
+ */
+.tweets-data {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 6px;
+  }
+/* HEADING ------------------*/
+/* Heading color and width */
+.tweets-data header {
+    background-color: rgb(149, 150, 146);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* align-content: center; */
+    margin: -10px -10px 0;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+}
+ /* Heading img */
+.tweets-data header img {
+    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+  }
+/* Heading name */
+.tweets-data header span {
+    font-weight: bold;
+    padding-top: 5%;
+    font-size: 2em;
+    vertical-align: middle;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+/* Heading name */
+.tweets-data header p {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 3%;
+    font-size: 1em;
+    }
+/* ----------------------------------------*/
+/* tweets */
+.tweets-data .text-tweet {
+    padding: 10px;
+    width: 100%;
+    vertical-align: middle;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+/* footer */
+.tweets-data footer {
+    /* padding-top: ; */
+    border-top: 0.15px solid  grey;
+    margin: -10px -10px;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* vertical-align: -webkit-baseline-middle; */
+ }

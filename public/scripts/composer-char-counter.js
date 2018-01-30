@@ -5,10 +5,9 @@ $(document).ready(function() {
     let lengthLeft = $counter.text(140 - length);
     let characLeft = 140 - length;
 
-
     if(characLeft < 0) {
       $counter.addClass("makeItRed");
-    } else if (characLeft >= 0) {
+    } else {
       $counter.removeClass("makeItRed");
     };
   });
