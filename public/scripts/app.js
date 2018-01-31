@@ -1,24 +1,6 @@
-/*
- * Client-side JS logic goes here
- * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
- */
-// function createTweetElement(data) {
-
-
-// }
+// JS to load all tweets on the page from the database
 $(document).ready(function(){
-let createTweetElement = function(data){
-//     var tweet = $("<article>")
-//         .addClass("tweet")
-//         .append(data.user.avatars.regular)
-//         .append(data.user.name)
-//         .append(data.user.handle)
-//         .append(data.content.text)
-//         .append(data.created_at);
-
-//     return tweet;
-
+  let createTweetElement = function(data){
     var element = $(`
     <article>
         <header>
@@ -36,10 +18,16 @@ let createTweetElement = function(data){
       </article>
     `)
     return element
-}
+    // ANOTHER APROACH BELOW
+    // const $article = $('<article>').addClass('post').data('article-id', article.id)
+    // $article.append($('<h3>').text(article.title))
+    // $article.append($('<p>').text(article.body))
+    // return $article;
+
+  }
 
 
-const tweetData = {
+  const tweetData = {
     "user": {
       "name": "Newton",
       "avatars": {
@@ -55,12 +43,22 @@ const tweetData = {
     "created_at": 1461116232227
   }
 
-var $tweet = createTweetElement(tweetData);
 
-// Test / driver code (temporary)
-console.log($tweet); // to see what it looks like
-$('#tweets-container').append($tweet);
+
+  function renderTweets(tweets) {
+  // loops through tweets
+    tweets.forEach((tweet) => {
+      // calls createTweetElement for each tweet
+      var $tweet = createTweetElement(tweet);
+       // takes return value and appends it to the tweets container
+      $('#tweets-container').append($tweet);
+    });
+  }
+
+  renderTweets(data);
 });
+
+
 
 
 

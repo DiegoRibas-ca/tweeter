@@ -71,14 +71,14 @@
 .fa { 
     opacity: 0;
  }
-.tweets-data:hover .fa {
+article:hover .fa {
     opacity: 1;
 }
-.tweets-data:hover {
-    border-color: rgb(10, 10, 10);
-    border-width: 3px;
-}
-.tweets-data:hover header {
+
+article header:hover {
     background-color: rgb(98, 99, 97); 
     color: bisque;  
+}
+article:hover {
+    border-color: rgb(14, 13, 13);
 }
