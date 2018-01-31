@@ -11,5 +11,12 @@ $(document).ready(function() {
       $counter.removeClass("makeItRed");
     };
   });
+  // $('form').on('submit', function(event) {
+  //   event.preventDefault();
+  //   let newTweet = $( this ).serialize();
+  //   return newTweet;
+  // });
+
+  
 });
 
