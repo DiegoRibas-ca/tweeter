@@ -21,6 +21,9 @@
 
     <!-- TWEETS DATABASE BOX -->
     <link rel="stylesheet" href="/styles/tweets-data.css" type="text/css" /> 
+    
+    <!-- ICONS -->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
@@ -42,7 +45,7 @@
     <p>Seeing modifications BBBB</p>
 
     <!-- Page-specific (main) content here -->
-    <main class="container">
+    <main class="container" >
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form method="POST" action="/tweets/">
@@ -51,15 +54,20 @@
           <span class="counter">140</span>
         </form>
       </section>
-      <section class="tweets-data">
+      <section class="tweets-data" id="tweets-container" >
         <article>
           <header>
-            <img src="http://www.seetorontonow.com/wp-content/uploads/2017/11/toronto-skyline-winter.jpg" alt="">
+            <img src="http://www.seetorontonow.com/wp-content/uploads/2017/11/toronto-skyline-winter.jpg"/>
             <span>NAME USER</span>
             <p>@lastname</p>
           </header>
           <p class="text-tweet">LITTLE TWEET HERE</p>
-          <footer>10 days ago</footer>
+          <footer>
+            <span>10 days ago</span> 
+            <i class="fa fa-flag" aria-hidden="true"></i> 
+            <i class="fa fa-retweet" aria-hidden="true"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </footer>
         </article>
       </section>
     </main>
