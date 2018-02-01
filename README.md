@@ -2,7 +2,7 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express and MongoDB back-end skills.
+This is my second project in Lighthouse Labs. Main tools and abilities required: HTML, CSS, JS, jQuery, AJAX front-end skills, Node, Express and MongoDB back-end skills. The user is automatically created to post the message!
 
 ## Getting Started
 
@@ -15,3 +15,15 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- body-parser version 1.15.2 or above
+- chance version 1.0.2 or above
+- md5 version 2.1.0 or above
+- mongodb version 2.2.34 (recent version came with update in sintaxe, so be careful if you use any above)
+
+## Final Product
+
+!["Main page Logged with some links"](https://github.com/DiegoRibas-ca/Shortner-URL---LH-project/blob/master/docs/Logged_and_with_some_links.png)
+
+!["Shortner page utility allowed only for users"](https://github.com/DiegoRibas-ca/Shortner-URL---LH-project/blob/master/docs/Shortner_page_only_for_users.png)
+
+!["Login page, option to register as well"](https://github.com/DiegoRibas-ca/Shortner-URL---LH-project/blob/master/docs/Login_page.png)
