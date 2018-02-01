@@ -1,13 +1,14 @@
 
 // JS to load all tweets on the page from the database
 $(document).ready(function(){
-
-// Function to secure text from the tweets
-function escape(str) {
-  var div = document.createElement('div');
-  div.appendChild(document.createTextNode(str));
-  return div.innerHTML;
-}
+  // hide the compose struture
+  $(".container .new-tweet").hide();
+  // Function to secure text from the tweets
+  function escape(str) {
+    var div = document.createElement('div');
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
   let createTweetElement = function(data){
     var element = $(`
     <article>
@@ -88,6 +89,10 @@ function escape(str) {
   //  })
   loadTweets();
   // loadTweets();
+  $("#nav-bar .nav-button").click(function () {
+    $(".new-tweet").toggle("show"), function () {
+  }
+ });
 });
 
 
