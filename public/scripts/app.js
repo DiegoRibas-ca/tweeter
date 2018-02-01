@@ -91,8 +91,9 @@ $(document).ready(function(){
   // loadTweets();
   $("#nav-bar .nav-button").click(function () {
     $(".new-tweet").toggle("show"), function () {
-  }
- });
+    }
+    $(".new-tweet textarea").focus();
+  });
 });
 
 
