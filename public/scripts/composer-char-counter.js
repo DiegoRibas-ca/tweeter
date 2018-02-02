@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  const maxLength = 140;
+  
   $('.new-tweet textarea').on('keyup', function() {
-    
+    const maxLength = 140;
     let length = $(this).val().length;
     let $counter = $(this).siblings('span');
     $counter.text(maxLength - length);   
@@ -15,9 +15,5 @@ $(document).ready(function() {
     };
   });
 
-  $('.new-tweet input').on('click', function() {
-    let $counter = $('.new-tweet textarea').siblings('span');
-    $counter.text(maxLength); 
-  });
 });
 

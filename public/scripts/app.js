@@ -69,10 +69,11 @@ $(document).ready(function(){
         data: newTweet,
         success: loadTweets
       });
-    }
-    $(".container .new-tweet").toggle('show');
-    $('.new-tweet textarea').val('');
-    
+      //treatments to the textarea field after submit
+      $('.counter').text(140); 
+      $(".container .new-tweet").toggle('show');
+      $('.new-tweet textarea').val('');
+    }       
   });   
   
   loadTweets();

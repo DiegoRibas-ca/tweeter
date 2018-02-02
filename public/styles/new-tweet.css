@@ -36,5 +36,10 @@
   color: red;
 }
 
+.new-tweet:hover {
+  background-color: rgb(98, 99, 97); 
+  color: bisque;  
+}
+
 
 
