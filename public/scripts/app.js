@@ -43,7 +43,7 @@ function renderTweets(tweets) {
   tweets.forEach((tweet) => {
     // calls createTweetElement for each tweet
     var $tweet = createTweetElement(tweet);
-     // takes return value and appends it to the tweets container
+    // takes return value and appends it to the tweets container
     $('#tweets-container').append($tweet);
   });
 }
@@ -69,10 +69,12 @@ $(document).ready(function(){
         data: newTweet,
         success: loadTweets
       });
-            
     }
+    $(".container .new-tweet").toggle('show');
+    $('.new-tweet textarea').val('');
+    
   });   
-
+  
   loadTweets();
   //toggle the textarea
   $("#nav-bar .nav-button").click(function () {

@@ -22,8 +22,8 @@ This is my second project in Lighthouse Labs. Main tools and abilities required:
 
 ## Final Product
 
-!["Main page Logged with some links"](https://github.com/DiegoRibas-ca/Shortner-URL---LH-project/blob/master/docs/Logged_and_with_some_links.png)
+!["Main page Logged with some links"]()
 
-!["Shortner page utility allowed only for users"](https://github.com/DiegoRibas-ca/Shortner-URL---LH-project/blob/master/docs/Shortner_page_only_for_users.png)
+!["Shortner page utility allowed only for users"]()
 
-!["Login page, option to register as well"](https://github.com/DiegoRibas-ca/Shortner-URL---LH-project/blob/master/docs/Login_page.png)
+!["Login page, option to register as well"]()
