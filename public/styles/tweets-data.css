@@ -2,86 +2,83 @@
  * Box in the MAIN tag to STORAGE tweets
  */
 .tweets-data {
-    margin: 1em 2em 0;
-  }
+  margin: 1em 2em 0; }
 
 .tweets-data article {
-    background-color: lightgrey;
-    border-radius: 6px;
-    border: solid rgb(204, 202, 202) 3px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    padding: 10px;
-}
+  background-color: lightgrey;
+  border-radius: 6px;
+  border: solid #cccaca 3px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 10px; }
+
 /* HEADING ------------------*/
 /* Heading color and width */
 .tweets-data header {
-    background-color: rgb(149, 150, 146);
-    height: 100px;
-    margin: -10px -10px 0;
-    padding: 10px;
-    border-radius: 6px 6px 0 0;
-}
- /* Heading img */
+  background-color: #959692;
+  height: 100px;
+  margin: -10px -10px 0;
+  padding: 10px;
+  border-radius: 6px 6px 0 0; }
+
+/* Heading img */
 .tweets-data header img {
-    border-radius: 4px;
-    float: left;
-    height: 80px;
-    width: 80px;
-  }
+  border-radius: 4px;
+  float: left;
+  height: 80px;
+  width: 80px; }
+
 /* Heading name */
 .tweets-data header span {
-    font-weight: bold;
-    float: left;
-    padding-left: 5px; 
-    margin-top: 25px;
-    font-size: 25px;
-    font-family: 'Roboto Condensed', sans-serif;
-    }
+  font-weight: bold;
+  float: left;
+  padding-left: 5px;
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: 'Roboto Condensed', sans-serif; }
+
 /* Heading name @ */
 .tweets-data header p {
-    float: right;
-    padding-top: 15px;
-    margin-right: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1em;
-    }
+  float: right;
+  padding-top: 15px;
+  margin-right: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em; }
+
 /* ----------------------------------------*/
 /* tweets */
 .tweets-data .text-tweet {
-    padding: 10px;
-    display: block;
-    overflow-wrap: break-word;
-    width: 100%;
-    vertical-align: middle;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
+  padding: 10px;
+  display: block;
+  overflow-wrap: break-word;
+  width: 100%;
+  vertical-align: middle;
+  font-family: 'Roboto Condensed', sans-serif; }
+
 /* footer */
 .tweets-data footer {
-    /* padding-top: ; */
-    border-top: 0.15px solid  grey;
-    margin: -10px -10px;
-    padding: 5px;
-    text-align: left;
-    font-family: 'Roboto Condensed', sans-serif;
-    /* vertical-align: -webkit-baseline-middle; */
- }
+  /* padding-top: ; */
+  border-top: 0.15px solid  grey;
+  margin: -10px -10px;
+  padding: 5px;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  /* vertical-align: -webkit-baseline-middle; */ }
+
 .tweets-data footer i {
-    float: right;
-    padding: 5px;
- }
-.fa { 
-    opacity: 0;
- }
+  float: right;
+  padding: 5px; }
+
+.fa {
+  opacity: 0; }
+
 article:hover .fa {
-    opacity: 1;
-}
+  opacity: 1; }
 
 article header:hover {
-    background-color: rgb(98, 99, 97); 
-    color: bisque;  
-}
+  background-color: #626361;
+  color: bisque; }
+
 article:hover {
-    border-color: rgb(14, 13, 13);
-}
+  border-color: #0e0d0d; }

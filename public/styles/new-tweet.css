@@ -4,42 +4,34 @@
 .new-tweet {
   margin-left: 2em;
   margin-right: 2em;
-
   padding: 10px;
   /*border-style: groove;*/
   background-color: lightgrey;
-  border-radius: 6px;
-}
+  border-radius: 6px; }
+
 /* Heading text */
-.new-tweet h2:after{
+.new-tweet h2:after {
   background-color: #333;
   content: "";
   display: -webkit-box;
   height: 1.5px;
   position: relative;
   vertical-align: middle;
-  width: 100%;
-}
+  width: 100%; }
+
 /* text area for type tweet*/
 .new-tweet textarea {
   padding: 5px;
-  width: 100%;
-}
+  width: 100%; }
+
 /* button to submmit tweet*/
-.new-tweet input {
-}
 /* number max of characteres*/
 .new-tweet span {
-  float: right;
-}
+  float: right; }
+
 .makeItRed {
-  color: red;
-}
+  color: red; }
 
 .new-tweet:hover {
-  background-color: rgb(98, 99, 97); 
-  color: bisque;  
-}
-
-
-
+  background-color: #626361;
+  color: bisque; }
