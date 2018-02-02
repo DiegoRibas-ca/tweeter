@@ -22,8 +22,8 @@ This is my second project in Lighthouse Labs. Main tools and abilities required:
 
 ## Final Product
 
-!["Main page Logged with some links"]()
+!["To show your box to post a tweeter, first click on compose"](https://github.com/DiegoRibas-ca/tweeter/blob/master/docs/click%20compose%20to%20toggle.png)
 
-!["Shortner page utility allowed only for users"]()
+!["Main page posting tweet"](https://github.com/DiegoRibas-ca/tweeter/blob/master/docs/Main%20screen%20posting.png)
 
-!["Login page, option to register as well"]()
+!["TWEET POSTED!!!"](https://github.com/DiegoRibas-ca/tweeter/blob/master/docs/posted.png)
